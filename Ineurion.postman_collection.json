@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "32c7cf0c-fdbd-4b34-b712-02f3449f69f4",
+		"name": "Ineurion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14936781"
+	},
+	"item": [
+		{
+			"name": "health-check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"rdasd\",\n    \"password\" : \"asdasd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/add-user",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"add-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/employee/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/delete-user/11",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"delete-user",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/update-user/11",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"update-user",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
