@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+  ineuron_bacnkend:
+    container_name: ineuron_backend
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000

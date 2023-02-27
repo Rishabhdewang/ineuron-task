@@ -1,6 +1,10 @@
-TO start the project run: npm start
+copy .env.example ->  .env
+add user postgres Connection url
+npm install
 
-to dockerise the setup
+To start the project run: npm start
+
+To dockerise the setup
 
 // create build
 
@@ -14,3 +18,6 @@ to dockerise the setup
 
 // To Stop 
 4. "docker stop express-api "
+
+
+Keep working 🔥
