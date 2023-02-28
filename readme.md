@@ -20,4 +20,7 @@ To dockerise the setup
 4. "docker stop express-api "
 
 
+
+
+deployed link :https://ineuron-task-production.up.railway.app/
 Keep working 🔥
